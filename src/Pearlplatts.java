@@ -106,7 +106,7 @@ public class Pearlplatts {
                                     System.out.println("Slider nr: " + slider.getName());
                                     boolean checkOk = checkLevel(Integer.parseInt(slider.getName().substring(1)));
                                     if(checkOk) {
-                                        System.out.print("Dags att rita bild med nya väärden: ");
+                                        System.out.print("Dags att rita bild med nya värden: ");
                                         for (JSlider s : graySliders)
                                             System.out.print(s.getValue() + ", ");
                                         System.out.println();
